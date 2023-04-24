@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+:root{
+    --epilogue: 'Epilogue', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.azul{
+    background-color: #014DFE;
+}
+body{
+    font-family: var(--epilogue);
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+a:hover{
+    background-color: white;
+    color: #014DFE;
+}
+.home{
+    display: inline-flex;
+}
+.icon{
+    width: 40%;
+}
+nav{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.botaoContato{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.botaoContato:hover{
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.div-main{
+    width: 90%;
+    display: grid;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.div-txt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-title{
+    width: 60%;
+    
+}
+.title{
+    font-size: 80px;
+}
+.div-title-center{
+    width: 30%;
+    display: grid;
+}
+.div-main-dolar{    
+    display: flex;
+    justify-content: space-around;
+}
+.imagem-casa{
+    width: 100%;
+}
+.div-title-txt{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.espaco{
+    padding-bottom: 7%;
+}
+.div-main2{
+    padding-top: 10%;
+    padding-left: 5%;
+    width: 90%;
+}
+.div-main2 h1{
+    color: #000;
+}
+.div-main2 h3{
+    color: #000;
+}
+.div-main2 p{
+    color: #000;
+}
+
+.div-title2{
+    width: 40%;
+}
+.div-title-center2{
+    width: 30%;
+}
+.div-title-txt2{
+    padding-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fundo-preto{
+    width: 100%;
+    display: flex;
+    background-color: #000;
+}
+
+.img-casa2{
+    width: 50%;
+    padding: 10px;
+}
+.fundo-preto-txt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.fundo-preto-txt h1{
+    font-size: 30px;
+}
+.fundo-preto-txt-title{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    min-height: 40vh;
+}
+.fundo-preto-p{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+
+}
+.fundo-preto-txt p{
+    font-size: 12px;
+}
+.gap{
+    gap: 4rem;
+}
+.image1-3{
+    width: 100%;
+}
+.image2{
+    width: 100%;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+.txt-images{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+
+    
+    border-bottom: 1px solid white;
+    padding-top: 10%;
+    padding-bottom: 3%;
+
+}
+.txt-images-p{
+    display: flex;
+    text-align: end;
+    font-size: 15px;
+}
+.arrow{
+    width: 8%;
+}
+.p{
+    font-size: 12px;
+    width: 30%;
+    padding-top: 3%;
+}
+.perguntas{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.perguntas-div{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-around;
+   
+}
+.title-p{
+    width: 60%;
+}
+.title2{
+    width: 80%;
+    font-size: 80px;
+}
+.footer{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10% 5%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.flex p:hover{
+    background-color: white;
+    color: #000;
+    border-radius: 2px;
+}
+.botaoquery{
+    display: none;
+}
+.input{
+    padding-top: 5%;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+@media (max-width: 576px){
+    main{
+        width: 100%;
+    }
+    .botao{
+        display: none;
+    }
+    .botaoquery{
+        display: flex;
+    }
+    .div-txt{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .div-title-txt{
+        width: 100%;
+        text-align: left;
+    }
+    .div-title{
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        
+    }
+    .div-title .title{
+        font-size: 35px;
+    }
+    .div-title-txt{
+        font-size: 14px;
+        padding-bottom: 10%;
+    }
+    .title{
+        font-size: 45px;
+    }
+    .div-main-dolar{
+        font-size: 23px;
+        gap: 5rem;
+        padding-bottom: 10%;
+    }
+    .div-main-dolar p{
+        font-size: 11px;
+    }
+    .images{
+        flex-direction: column;
+    }
+    .footer{
+        width: 90%;
+        flex-direction: column  ;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-title2{
+        width: 70%;
+        padding-top: 20%;
+    }
+    .div-title-center2{
+        width: 90%;
+        font-size: 13px;
+    }
+    .div-title-center2 h3{
+        display: none;
+    }
+    .fundo-preto{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .img-casa2{
+        width: 95%;
+    }
+    .fundo-preto-txt{
+        width: 100%;
+        
+    }
+    .fundo-preto-txt-title{
+        width: 80%;
+    }
+    .fundo-preto-p{
+        text-align: justify;
+    }
+    .icon2{
+        width: 10%;
+        padding-top: 20%;
+    }
+    .div-txt h1{
+        font-size: 40px;
+        width: 80%;
+    }
+    .div-title-txt2{
+        width: 80%;
+    }
+    .title2{
+        font-size: 30px;
+        padding-top: 30%;
+    }
+    .perguntas{
+        flex-direction: column;
+        width: 100%;
+    }
+    .perguntas-div{
+        width: 90%;
+    }
+    .p{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 60%;
+    }
+    .div-main-dolar img{
+        width: 15%;
+    }
+    .div-main-dolar h3{
+        font-size: 20px;
+    }
+    .footer{
+        padding-top: 30%;
+    }
+    .footer .div-main-dolar{
+        display: inline-flex;
+        justify-content: start;
+        gap: 0;
+        width: 100%;
+        
+    }
+    .flex2{
+        justify-content: start;
+        padding-bottom: 5%;
+    }
+}
